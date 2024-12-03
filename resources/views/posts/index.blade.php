@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Posts</title>
-</head>
-<body>
-        <h1>Aqui se mostrara la lista de posts</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Posts')
+@push('css')
+    <style>
+        body {
+            background-color: rgb(65, 65, 65);
+            color: white;
+        }
+    </style>
+@endpush
+
+@section('content')
+    <h1>Posts</h1>
+    <h2>soy antonio</h2>
+    <h3>Y este es un servidor de prueba</h3>
+@endsection
+
+@section('js')
+    
+@endsection
+
